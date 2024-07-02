@@ -1,0 +1,225 @@
+header{
+    background-color: #070F2B;
+    position:sticky;
+    top: 0;
+    padding: 10px 0px;
+    display: flex;
+    justify-content:space-between;
+    cursor: default;
+    transition: 0.5s;
+}
+
+main{
+    background-color: white;
+    height: 100%;
+    /* padding: 10px 0px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-direction: row;
+}
+footer{
+    background-color: #070F2B;
+    position: sticky;
+    bottom: 0;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    cursor: default;
+}
+body{
+    position: relative;
+    margin: 0;
+}
+.left-side-bar{
+    background-color: #1B1A55;
+    /* flex: 0.5; */
+    margin: 0 10;
+    /* min-width: 100x; */
+    left: 0;
+    /* display: none;  */
+    position: absolute;
+    border-style: solid;
+    border: #000000a6;
+    border-width: 3px;
+    transition: 0.5s;
+    max-width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    opacity: 0;
+    visibility: hidden;
+}
+.logo{
+    cursor: default;
+    position: relative;
+    /* transition: 0.5s; */
+}
+.MENU:hover > .left-side-bar{
+    transition: 0.5s;
+    position: relative;
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+}
+
+.MENU{
+    background-color: #1B1A55;
+    transition: 0.5s;
+    transition: visibility 1s, opacity 1.5s;
+    transform: rotate(90);
+    /* text-align: center; */
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    padding-top: 90px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-content{
+    background-color: #4f536b;
+    margin: 10px;
+    border: #e3e1d998;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-width: 100px;
+    border-color: #e3e1d99a;
+    padding: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor:default;
+    list-style-type: none;
+    color: #ffffff;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+.menu-content:hover{
+    opacity: 1;
+    border-style: solid;
+    border: #ffffff;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: larger;
+    padding: 12px;
+}
+.Muc-Luc{
+    font-size: 20px;
+    margin: 0 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.footer-content{
+    font-size: large;
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.footer-content:hover{
+    font-size: larger;
+    opacity: 1;
+    padding: 5px;
+}
+.main-content{
+    flex: 3;
+    margin: 0;
+    background-color: #404770;
+    margin: 0 10;
+    border-style: solid;
+    border: #8f8f91a6;
+    border-width: 3px;
+    text-decoration: none;
+    opacity: 1.8;
+    /* padding-right: 25%;
+    padding-left: 25%; */
+}
+.main-content-item{
+    flex: 2;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.child-text-text{
+    text-align: left;  
+    margin: 0 10px; 
+    color: #DFD0B8;
+    font-family: 'Segoe UI';
+}
+.child-text{
+    text-align: center;   
+    color: #ffffff; 
+    font-family: 'Segoe UI';
+    /* width: 25%; */
+    /* min-width: 600px; */
+}
+.nav-item{
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.nav-item:hover{
+    opacity: 1;
+    font-size: larger;
+    padding: 4px;
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+}
+/* .Menu{
+    border-style: solid;
+    border: #8f8f91a6;
+    border-width: 3px;
+} */
+.border-child-text-text{
+    border: #9290c31a;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: 0.5s;
+    background-color: #9290c300;
+    cursor: default;
+    opacity: 0.8;
+}
+.border-child-text-text:hover{
+    opacity: 1;
+    border: #9290c3;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 20px;
+    background-color: #9290c3;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ffffff;
+    font-family: 'Segoe UI';
+}
+a{
+    text-decoration:none;
+}
+.title-menu{
+    transform: rotate(-90deg);
+    justify-content: center;
+}
